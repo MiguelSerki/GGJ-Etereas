@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="GGJ Etereas"
-run/main_scene="res://scenes/main.tscn"
+run/main_scene="res://scenes/Menu.tscn"
 config/features=PackedStringArray("4.3", "GL Compatibility")
 config/icon="res://icon.svg"
 
@@ -22,7 +22,12 @@ Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
 [dialogic]
 
 directories/dch_directory={
-"Player": "res://assets/Player.dch"
+"Agus": "res://assets/characters/Agus.dch",
+"Amigx": "res://assets/characters/Amigx.dch",
+"Anna": "res://assets/characters/Anna.dch",
+"Erin": "res://assets/characters/Erin.dch",
+"Mei": "res://assets/characters/Mei.dch",
+"Player": "res://assets/characters/Player.dch"
 }
 directories/dtl_directory={
 "timeline1": "res://assets/timelines/timeline1.dtl"

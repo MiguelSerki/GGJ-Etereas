@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dpsas1gka03c1"
-path="res://.godot/imported/277_Regirock.png-8fcd85fe858190f3bff33ecc713ab556.ctex"
+path="res://.godot/imported/277_Regirock.png-da0bc8104b1f519d07299b51184d20a7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/277_Regirock.png"
-dest_files=["res://.godot/imported/277_Regirock.png-8fcd85fe858190f3bff33ecc713ab556.ctex"]
+source_file="res://assets/sprites/277_Regirock.png"
+dest_files=["res://.godot/imported/277_Regirock.png-da0bc8104b1f519d07299b51184d20a7.ctex"]
 
 [params]
 
