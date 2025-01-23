@@ -1,10 +1,13 @@
-[gd_scene load_steps=4 format=3 uid="uid://b2dko1vhueq31"]
+[gd_scene load_steps=5 format=3 uid="uid://b2dko1vhueq31"]
 
-[ext_resource type="Script" path="res://scenes/sobre_nosotras.gd" id="1_loi8s"]
+[ext_resource type="Script" path="res://scripts/sobre_nosotras.gd" id="1_loi8s"]
 [ext_resource type="Texture2D" uid="uid://81awkbbdrbg7" path="res://Menu/277_Regirock.png" id="1_n5n34"]
 
 [sub_resource type="SystemFont" id="SystemFont_pm3f0"]
 font_names = PackedStringArray("Impact")
+
+[sub_resource type="SystemFont" id="SystemFont_7qc4x"]
+font_names = PackedStringArray("Cute_Font")
 
 [node name="sobre_nosotras" type="Node2D"]
 script = ExtResource("1_loi8s")
@@ -32,6 +35,9 @@ layout_mode = 2
 
 [node name="boton_volver" type="Button" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2
+size_flags_vertical = 10
+theme_override_fonts/font = SubResource("SystemFont_7qc4x")
+theme_override_font_sizes/font_size = 25
 text = "Volver"
 icon_alignment = 1
 

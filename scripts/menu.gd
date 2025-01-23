@@ -3,9 +3,14 @@ extends Control
 func _ready():
 	$MarginContainer/VBoxContainer/Play.grab_focus()
 
+
 func _on_play_pressed():
  # Boton de inicio que cambia a la escena del juego
 	get_tree().change_scene_to_file("res://scenes/main.tscn")
+
+
+func _on_options_pressed() -> void: #Boton de opciones
+	get_tree().change_scene_to_file("res://scenes/menu_opciones.tscn")
 
 
 func _on_about_pressed(): #Boton de info

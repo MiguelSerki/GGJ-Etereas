@@ -11,7 +11,6 @@ func _process(delta: float) -> void:
 	pass
 
 
-
-func _on_boton_volver_pressed() -> void:
+func _on_boton_volver_pressed() -> void: #Boton de volver
 	get_tree().change_scene_to_file("res://scenes/Menu.tscn")
 	

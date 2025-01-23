@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://di8a6jy7vev63"]
+[gd_scene load_steps=9 format=3 uid="uid://di8a6jy7vev63"]
 
 [ext_resource type="Script" path="res://scripts/menu.gd" id="1_u6xju"]
 [ext_resource type="Texture2D" uid="uid://bh08fxpo6xobs" path="res://Menu/fondo_michis.png" id="2_wqdi3"]
@@ -9,6 +9,9 @@ font_names = PackedStringArray("Cute_Font")
 [sub_resource type="Theme" id="Theme_a1khx"]
 
 [sub_resource type="SystemFont" id="SystemFont_5etgy"]
+font_names = PackedStringArray("Covered By Your Grace")
+
+[sub_resource type="SystemFont" id="SystemFont_0i7em"]
 font_names = PackedStringArray("Covered By Your Grace")
 
 [sub_resource type="SystemFont" id="SystemFont_uf38x"]
@@ -70,6 +73,12 @@ theme_override_fonts/font = SubResource("SystemFont_5etgy")
 theme_override_font_sizes/font_size = 25
 text = "Jugar"
 
+[node name="Options" type="Button" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = SubResource("SystemFont_0i7em")
+theme_override_font_sizes/font_size = 25
+text = "Opciones"
+
 [node name="About" type="Button" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2
 theme_override_fonts/font = SubResource("SystemFont_uf38x")
@@ -84,5 +93,6 @@ theme_override_font_sizes/font_size = 25
 text = "Salir"
 
 [connection signal="pressed" from="MarginContainer/VBoxContainer/Play" to="." method="_on_play_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/Options" to="." method="_on_options_pressed"]
 [connection signal="pressed" from="MarginContainer/VBoxContainer/About" to="." method="_on_about_pressed"]
 [connection signal="pressed" from="MarginContainer/VBoxContainer/Exit" to="." method="_on_exit_pressed"]
