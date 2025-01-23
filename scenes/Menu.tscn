@@ -1,9 +1,21 @@
-[gd_scene load_steps=4 format=3 uid="uid://di8a6jy7vev63"]
+[gd_scene load_steps=8 format=3 uid="uid://di8a6jy7vev63"]
 
 [ext_resource type="Script" path="res://scripts/menu.gd" id="1_u6xju"]
 [ext_resource type="Texture2D" uid="uid://bh08fxpo6xobs" path="res://Menu/fondo_michis.png" id="2_wqdi3"]
 
+[sub_resource type="SystemFont" id="SystemFont_y457q"]
+font_names = PackedStringArray("Cute_Font")
+
 [sub_resource type="Theme" id="Theme_a1khx"]
+
+[sub_resource type="SystemFont" id="SystemFont_5etgy"]
+font_names = PackedStringArray("Covered By Your Grace")
+
+[sub_resource type="SystemFont" id="SystemFont_uf38x"]
+font_names = PackedStringArray("Covered By Your Grace")
+
+[sub_resource type="SystemFont" id="SystemFont_4r5t6"]
+font_names = PackedStringArray("Covered By Your Grace")
 
 [node name="Menu" type="Control"]
 layout_mode = 3
@@ -37,6 +49,9 @@ layout_mode = 2
 [node name="Label" type="Label" parent="MarginContainer/VBoxContainer2"]
 layout_mode = 2
 theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_constants/outline_size = 12
+theme_override_fonts/font = SubResource("SystemFont_y457q")
+theme_override_font_sizes/font_size = 80
 text = "Burbujas Etereas
 "
 horizontal_alignment = 1
@@ -51,15 +66,21 @@ alignment = 1
 layout_mode = 2
 focus_neighbor_top = NodePath("../Exit")
 theme = SubResource("Theme_a1khx")
+theme_override_fonts/font = SubResource("SystemFont_5etgy")
+theme_override_font_sizes/font_size = 25
 text = "Jugar"
 
 [node name="About" type="Button" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2
+theme_override_fonts/font = SubResource("SystemFont_uf38x")
+theme_override_font_sizes/font_size = 25
 text = "Sobre nosotras"
 
 [node name="Exit" type="Button" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2
 focus_neighbor_bottom = NodePath("../Play")
+theme_override_fonts/font = SubResource("SystemFont_4r5t6")
+theme_override_font_sizes/font_size = 25
 text = "Salir"
 
 [connection signal="pressed" from="MarginContainer/VBoxContainer/Play" to="." method="_on_play_pressed"]
