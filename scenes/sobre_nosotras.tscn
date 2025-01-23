@@ -1,0 +1,38 @@
+[gd_scene load_steps=4 format=3 uid="uid://b2dko1vhueq31"]
+
+[ext_resource type="Script" path="res://scenes/sobre_nosotras.gd" id="1_loi8s"]
+[ext_resource type="Texture2D" uid="uid://81awkbbdrbg7" path="res://Menu/277_Regirock.png" id="1_n5n34"]
+
+[sub_resource type="SystemFont" id="SystemFont_pm3f0"]
+font_names = PackedStringArray("Impact")
+
+[node name="sobre_nosotras" type="Node2D"]
+script = ExtResource("1_loi8s")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_right = 1149.0
+offset_bottom = 657.0
+texture = ExtResource("1_n5n34")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+offset_right = 1143.0
+offset_bottom = 638.0
+
+[node name="texto_ununun" type="Label" parent="MarginContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0.929412, 1)
+theme_override_fonts/font = SubResource("SystemFont_pm3f0")
+theme_override_font_sizes/font_size = 150
+text = "ÜN Ün ÜN"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+
+[node name="boton_volver" type="Button" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+text = "Volver"
+icon_alignment = 1
+
+[connection signal="pressed" from="MarginContainer/VBoxContainer/boton_volver" to="." method="_on_boton_volver_pressed"]
