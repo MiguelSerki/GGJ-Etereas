@@ -1,0 +1,30 @@
+join Anna center
+Anna: Hey, hola.
+Anna: ¿Ustedes son mis estudiantes de Sujeto 1, no? ¿Todo bien?
+Player: Hola profe, sí, todo bien.
+Player: Que raro verla fuera de la facultad.
+Anna: La verdad que sí, más en un entorno como éste.
+Anna: Nunca antes habían venido a ver Etérea, ¿no?
+Player: No, no suelo salir mucho de mi casa.
+join Agus left
+join Erin center
+join Mei center
+Agus: Che, Anna, nosotras vamos descartando.
+Agus: ¿Te acercamos a tu casa?
+Anna: Sí, dale. Pero antes quiero que conozcan a alguien.
+Anna: Él es mi estudiante del Profesorado
+Anna: Es la primera vez que nos viene a ver.
+Mei: Mucho gusto, ¿qué tal sonamos en el escenario? ¿Te gustó?
+- Me re gustó cómo cantaste la canción de Paramore al principio.
+	Mei: Gracias, son canciones complicadas
+	Mei: pero las practiqué mucho y mi profesora de cantó de la facultad me ayudó bastante a entenderlas.
+- Estuvo bien, pero el bajo parecía desafinado.
+	Agus: (desanimada) sí, no soy muy buena afinando.
+	Agus: Soy profesora de Lengua no sé hacer música.
+	Agus: Pero bueno, lo importante es divertirse con amigas.
+- Es increible que toquen punk y metal usando un teclado.
+	Erin: Gracias, sí, es complicado porque casi ninguno de los covers que hacemos tiene el instrumento.
+- Los solos de guitarra de la profe fueron completamente apotéosicos
+	Anna: Gracias, hacer covers no es tan complicado.
+Erin: Bueno, nosotras nos vamos.
+Erin: Espero que nos sigamos cruzando en estas fechas de bandas.

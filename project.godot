@@ -36,10 +36,12 @@ directories/dtl_directory={
 "Claire": "res://Smartphone/Timelines/Claire.dtl",
 "Laurey": "res://Smartphone/Timelines/Laurey.dtl",
 "Otto": "res://Smartphone/Timelines/Otto.dtl",
-"timeline1": "res://assets/timelines/timeline1.dtl"
+"timeline1": "res://assets/timelines/timeline1.dtl",
+"timeline2": "res://assets/timelines/timeline2.dtl",
+"timeline3": "res://assets/timelines/timeline3.dtl"
 }
 glossary/default_case_sensitive=true
-layout/style_list=["res://Smartphone/Smartphone_Style.tres"]
+layout/style_list=[]
 layout/default_style=""
 variables={}
 extensions_folder="res://addons/dialogic_additions"

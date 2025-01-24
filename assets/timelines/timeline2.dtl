@@ -1,0 +1,16 @@
+[background arg="res://assets/sprites/Casa de la Cultura.jpeg" fade="0.0"]
+Llega el día en cuestión. La casa de la Cultura está llena de gente queer.
+Una chica sube al escenario y acapara la atención...
+join Agus center [animation="Slide In Left" length="3.0" wait="true"]
+Agus: ¡Buenas! 
+Agus: Somos "Etérea",  una banda Transfeminista.
+Agus: La banda surgió con la idea de visibilizar a las expresiones de género no masculinas dentro de la "escena" del punk y metal de Río Grande.
+Agus: Es decir, nuestra idea es mostrar, desde los escenarios, que no sólo los hombres hacen música.
+Agus:  Que las personas No Binarias y las mujeres también existimos y tenemos un mensaje para transmitir.
+Agus: Además, la idea es crear fechas y eventos donde todxs podamos sentirnos segurxs y libres.
+Agus: Que las maricas también vamos a recitales.
+Agus: Es con ese objetivo es que elegimos las canciones a tocar y lo llevamos a lo "performático".
+Agus: No es casualidad que hayan 3 personas trans en la banda.
+Agus: ¡Disfruten del show! 
+leave Agus
+jump timeline3/
