@@ -1,5 +1,15 @@
-join Player center [animation="Bounce In" wait="true"]
-Player: Neo! Despierta!
-... ¿quien eres?
-Player: Te estan buscando Neo. 
-Player: Es todo lo que puedo decir...
+[style name="Smartphone_Style"]
+[background fade="0.0"]
+join Amigx center
+Player: Che...
+Player: ¿Vviste la profe de sujeto 1?
+Amigx: ¿Cual?
+Amigx: ¿La de pelo rosa?
+Player:  Sí esa.
+Player: La empecé a seguir en IG, y parece que está en una banda de metal.
+Player: Mañana tocan en vivo...
+Player: ¿Vamos?
+Amigx: Prefiero intentar salir de plata en lol, ahre
+Amigx: Dale, suena flashero
+Amigx: ¿Hay que pagar entrada?
+Player: No, parece ser que no.

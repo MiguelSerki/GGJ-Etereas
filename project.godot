@@ -25,16 +25,22 @@ directories/dch_directory={
 "Agus": "res://assets/characters/Agus.dch",
 "Amigx": "res://assets/characters/Amigx.dch",
 "Anna": "res://assets/characters/Anna.dch",
+"Claire": "res://Smartphone/Characters/Claire.dch",
 "Erin": "res://assets/characters/Erin.dch",
+"Laurey": "res://Smartphone/Characters/Laurey.dch",
 "Mei": "res://assets/characters/Mei.dch",
+"Otto": "res://Smartphone/Characters/Otto.dch",
 "Player": "res://assets/characters/Player.dch"
 }
 directories/dtl_directory={
+"Claire": "res://Smartphone/Timelines/Claire.dtl",
+"Laurey": "res://Smartphone/Timelines/Laurey.dtl",
+"Otto": "res://Smartphone/Timelines/Otto.dtl",
 "timeline1": "res://assets/timelines/timeline1.dtl"
 }
 glossary/default_case_sensitive=true
-layout/style_list=[]
-layout/default_style="Default"
+layout/style_list=["res://Smartphone/Smartphone_Style.tres"]
+layout/default_style=""
 variables={}
 extensions_folder="res://addons/dialogic_additions"
 text/letter_speed=0.01
