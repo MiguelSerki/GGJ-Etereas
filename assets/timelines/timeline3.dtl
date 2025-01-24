@@ -28,3 +28,8 @@ Mei: Mucho gusto, ¿qué tal sonamos en el escenario? ¿Te gustó?
 	Anna: Gracias, hacer covers no es tan complicado.
 Erin: Bueno, nosotras nos vamos.
 Erin: Espero que nos sigamos cruzando en estas fechas de bandas.
+leave Erin
+leave Anna
+leave Mei
+leave Agus
+jump timeline4/

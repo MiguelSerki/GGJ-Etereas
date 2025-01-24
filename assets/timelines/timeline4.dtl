@@ -1,0 +1,18 @@
+AL DIA SIGUIENTE
+Player: Eu, ¡la pasé re bien ayer!
+Player: ¿Te gustó la banda?...
+Amigx: No voy a mentirte...
+Player: ...Porque ví en el ig de otra de las bandas que tocaron ayer que hay otra fecha este finde.
+Player: Parece que la organizan estudiantes del Polivalente de Arte.
+Player: Es a la tarde en el centro. ¿Vamos?
+Amigx: Nah, demasiado salir.
+Amigx: Prefiero quedarme en casa haciendo nada.
+Player: ...
+Player: ¿Pero entonces no vamos a volver a ir a ninguna tocada así?
+Amigx: Eso te llama la atención a vos, a mi no.
+Amigx: Si te gustó andá solo.
+Amigx: Sino te invito una ranked =P
+- Decides ir sin compañía
+	jump 
+- Decides quedarte en casa
+	jump Virgo Ending/
