@@ -1,4 +1,9 @@
+[style name="SmartPhone_New"]
+[style]
 # Ringtone notificación de instagram
+[sound path="res://music/Instagram notification sound insta sms tone  sms ringtone instrumental.mp3" volume="0.0"]
+...
+?
 [style name="SmartPhone_New"]
 etereabanda: Hola, vimos que tu historia sobre el acoso callejero que sufriste se volvió un poco viral
 etereabanda: Desde Etérea lamentamos lo que te hicieron vivir y queríamos invitarte a nuestra próxima fecha hoy a las 21hs en La Ratonera
@@ -15,7 +20,8 @@ Player: ...
 	Amigx: Y qué onda?
 	Player: parece que la historia está haciendo bastante revuelo. Me invitaron a su próxima fecha \:D
 	Player: Querés venir?
-	Amigx:  No, ahora tengo muchas menos ganas de ir a lugares así
-	Amigx:  Pero andá solo, si va a estar la profe se ve como un lugar más seguro
+	Amigx: No, ahora tengo muchas menos ganas de ir a lugares así
+	Amigx: Pero andá solo, si va a estar la profe se ve como un lugar más seguro
 	Player: Me da como nervios. Pero no puedo permitir que ésto me encierre en mi casa
+	[style]
 	jump timeline8/

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cnumwa5q0asdq"
+path="res://.godot/imported/Instagram notification sound insta sms tone  sms ringtone instrumental.mp3-f1503031d00b0ce4cea58dc346779787.mp3str"
+
+[deps]
+
+source_file="res://music/Instagram notification sound insta sms tone  sms ringtone instrumental.mp3"
+dest_files=["res://.godot/imported/Instagram notification sound insta sms tone  sms ringtone instrumental.mp3-f1503031d00b0ce4cea58dc346779787.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
