@@ -8,22 +8,31 @@
 "sound_moods": {},
 "style": ""
 },
-"default_portrait": "Agus",
+"default_portrait": "Agus portrait",
 "description": "",
 "display_name": "Agus",
 "mirror": false,
 "nicknames": [""],
 "offset": Vector2(0, 0),
 "portraits": {
-"Agus": {
+"Agus Escenario": {
 "export_overrides": {
 "image": "\"res://assets/sprites/Agus.jpeg\""
 },
 "ignore_char_scale": false,
 "mirror": false,
 "offset": Vector2(0, 0),
-"scale": 0.75,
+"scale": 1.0,
 "scene": "res://addons/dialogic/Modules/Character/default_portrait.tscn"
+},
+"Agus portrait": {
+"export_overrides": {
+"image": "\"res://assets/sprites/dexxxxxxxx-removebg-preview.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1.0,
+"scene": ""
 }
 },
 "scale": 1.0

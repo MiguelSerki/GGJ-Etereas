@@ -1,3 +1,4 @@
+[background arg="res://assets/sprites/Casa de la Cultura.jpeg" fade="0.0"]
 join Anna center
 Anna: Hey, hola.
 Anna: ¿Ustedes son mis estudiantes de Sujeto 1, no? ¿Todo bien?
@@ -6,9 +7,10 @@ Player: Que raro verla fuera de la facultad.
 Anna: La verdad que sí, más en un entorno como éste.
 Anna: Nunca antes habían venido a ver Etérea, ¿no?
 Player: No, no suelo salir mucho de mi casa.
-join Agus left
-join Erin center
-join Mei center
+update Anna left
+join Agus leftmost
+join Erin right
+join Mei rightmost
 Agus: Che, Anna, nosotras vamos descartando.
 Agus: ¿Te acercamos a tu casa?
 Anna: Sí, dale. Pero antes quiero que conozcan a alguien.
