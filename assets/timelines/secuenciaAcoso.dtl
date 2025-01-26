@@ -1,3 +1,25 @@
 [style name="Visual Novel Style"]
-[background fade="0.0"]
+[background arg="res://assets/fondos/escena colectivo asi nomas.png" fade="0.0"]
+Por alguna razón te sentís incómodo...
+Como que todos te miran...
+Y dicen cosas a tu espalda.
+Tu corazón se ascelera, pero llegas a tu parada.
+Bajas aliviado...
+[background arg="res://assets/fondos/fondoParada.png" fade="2.0"]
+join Bully (Baka) center
+Bully: Eh, mirá ese puto jajajaja
+Bully: Alto maricón
+- Agachar la cabeza y seguir caminando
+	Bully (Mira ese puto): Eeeehhh putoooo
+	Bully (Mira ese puto): ¿A donde vas tan apurado?
+- Insultar al grupo
+	Player: Altos giles
+	Bully (Mira ese puto): ¿Que dijiste trolito? ¿Eh? 
+Bully (Baka): Vení chupanos un poco la pija, que tanto te gusta.
+- Correr
+	leave Bully
+	Salis corriendo y escuchás cómo te persiguen, todavía gritando e insultando
+	Bully: ¡DALE CORRE PUTO! 
+	Bully: ¡TE AGARRAMOS Y TE COJEMOS! JAJAJA
+[clear time="1.0"]
 jump timeline6/

@@ -1,8 +1,9 @@
-[gd_scene load_steps=11 format=3 uid="uid://doer5vu1ifsrv"]
+[gd_scene load_steps=12 format=3 uid="uid://doer5vu1ifsrv"]
 
 [ext_resource type="Script" path="res://addons/dialogic/Modules/Text/node_dialog_text.gd" id="1_lblyi"]
 [ext_resource type="Script" path="res://Smartphone/SmartphoneLayout.gd" id="1_qguno"]
 [ext_resource type="Texture2D" uid="uid://cstwdu0aydq6c" path="res://Smartphone/Assets/GalaxyNote3.png" id="2_nhqfc"]
+[ext_resource type="Script" path="res://Smartphone/title.gd" id="3_o6sb7"]
 [ext_resource type="Script" path="res://addons/dialogic/Modules/Choice/node_choice_button.gd" id="4_jhrew"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_v3p03"]
@@ -134,10 +135,10 @@ offset_right = 6.10352e-05
 offset_bottom = 35.0
 grow_horizontal = 2
 theme_override_colors/font_color = Color(0, 0, 0, 1)
-text = "Amigx"
 horizontal_alignment = 1
 vertical_alignment = 1
 uppercase = true
+script = ExtResource("3_o6sb7")
 
 [node name="Scroll" type="ScrollContainer" parent="PhoneTexture/Panel"]
 layout_mode = 2

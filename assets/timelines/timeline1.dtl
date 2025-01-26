@@ -1,4 +1,5 @@
 [style name="SmartPhone_New"]
+set {Titulo_Chat} = "AMIGX"
 label Title (Amigx)
 Player: Che...
 Player: ¿viste la profe de sujeto 1?
@@ -12,4 +13,5 @@ Amigx: Prefiero intentar salir de plata en lol, ahre
 Amigx: Dale, suena flashero
 Amigx: Hay que pagar entrada?
 Player: No, parece ser que no
+[clear time="1.0"]
 jump timeline2/

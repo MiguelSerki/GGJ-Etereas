@@ -1,4 +1,5 @@
 # ya en el evento de la ratonera
+[style name="Visual Novel Style"]
 [background arg="res://assets/fondos/ratonera interior escenario 2.jpg" fade="0.0"]
 join publico center [animation="Fade In"]
 todo maldito
@@ -10,11 +11,20 @@ Agus: Vos fumás? yo me voy a fumar afuera un rato que hace muchísimo calor ac�
 Agus: Mei seguramente se quede en el camerino retocándose el maquillaje.
 Agus: Erin es la más social, seguro está sentada esperando a que alguien le hable
 Agus: Y Ana debe estar en el escenario desconectando sus pedales
+label 4 Charlas
+[background arg="res://assets/fondos/ratonera interior escenario 2.jpg" fade="0.0"]
 - Acompañar a Agus a fumar afuera
+	[clear time="1.0"]
 	jump timeline_final_agus/
 - Buscar a Mei en el camerín
+	[clear time="1.0"]
 	jump timeline_final_mei/
 - Sentarse junto a Erin
+	[clear time="1.0"]
 	jump timeline_final_erin/
 - Buscar a Ana en el escenario
+	[clear time="1.0"]
 	jump timeline_final_anna/
+- Volver a casa
+	[clear time="1.0"]
+	jump timeline_Ending_Finak/

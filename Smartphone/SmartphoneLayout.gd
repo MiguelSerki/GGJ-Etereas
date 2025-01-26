@@ -14,6 +14,8 @@ var last_text_time := ""
 
 func _ready() -> void:
 	setup_background_image_logic()
+	var label_node = $PhoneTexture/Panel/Title
+	label_node.update_title()
 
 
 ## Handle UI things, when a new text starts revealing

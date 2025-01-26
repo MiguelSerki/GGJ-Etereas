@@ -1,4 +1,4 @@
-[style name="SmartPhone_New"]
+set {Titulo_Chat} = "ETEREA BANDA"
 [style]
 # Ringtone notificación de instagram
 [sound path="res://music/Instagram notification sound insta sms tone  sms ringtone instrumental.mp3" volume="0.0"]
@@ -16,6 +16,7 @@ Player: ...
 	jump timeline8/
 - Preguntarle a tu amix si quiere acompañarte
 	[style name="SmartPhone_New"]
+	set {Titulo_Chat} = "AMIGX"
 	Player: Eu, Eterea me mandó un mensaje desde el instagram de la banda
 	Amigx: Y qué onda?
 	Player: parece que la historia está haciendo bastante revuelo. Me invitaron a su próxima fecha \:D

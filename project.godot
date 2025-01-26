@@ -25,6 +25,7 @@ directories/dch_directory={
 "Agus": "res://assets/characters/Agus.dch",
 "Amigx": "res://assets/characters/Amigx.dch",
 "Anna": "res://assets/characters/Anna.dch",
+"Bully": "res://assets/characters/Bully.dch",
 "Claire": "res://Smartphone/Characters/Claire.dch",
 "Erin": "res://assets/characters/Erin.dch",
 "Laurey": "res://Smartphone/Characters/Laurey.dch",
@@ -49,6 +50,7 @@ directories/dtl_directory={
 "timeline7": "res://assets/timelines/timeline7.dtl",
 "timeline8": "res://assets/timelines/timeline8.dtl",
 "timeline9": "res://assets/timelines/timeline9.dtl",
+"timeline_Ending_Finak": "res://assets/timelines/timeline_Ending_Final.dtl",
 "timeline_final_agus": "res://assets/timelines/timeline_final_agus.dtl",
 "timeline_final_anna": "res://assets/timelines/timeline_final_anna.dtl",
 "timeline_final_erin": "res://assets/timelines/timeline_final_erin.dtl",
@@ -57,7 +59,9 @@ directories/dtl_directory={
 glossary/default_case_sensitive=true
 layout/style_list=["res://Visual Novel Style.tres", "res://Smartphone/SmartPhone_New.tres"]
 layout/default_style="res://Visual Novel Style.tres"
-variables={}
+variables={
+"Titulo_Chat": "AMIGX"
+}
 extensions_folder="res://addons/dialogic_additions"
 text/letter_speed=0.01
 text/initial_text_reveal_skippable=true
