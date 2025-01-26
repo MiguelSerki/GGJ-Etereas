@@ -1,6 +1,7 @@
 Decides buscar a Ana en el escenario
 [background arg="res://assets/fondos/La ratonera Interior Escenario.jpg" fade="0.0"]
 join Anna center
+[music path="res://music/Doki Doki Literature Club! OST - Daijoubu!.mp3" fade="1.0" volume="0.0"]
 Anna: Me alegra verte por acá
 Player: No estaba seguro de si venir
 Player: Después de lo que pasó en el evento anterior, pensé que tal vez esto no era para mí...

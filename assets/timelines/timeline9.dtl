@@ -8,6 +8,7 @@ Te unes a los gritos y disfrutas del show
 leave publico [animation="Fade Out"]
 [clear time="1.0"]
 [background arg="res://assets/fondos/ratonera interior escenario 2.jpg" fade="0.0"]
+[music path="res://music/Doki Doki Literature Club! OST - Ohayou Sayori!.mp3" fade="1.0" volume="0.0"]
 join Agus (Agus portrait) center
 Agus: Hey, que bueno que viniste, no te ví cuando estábamos tocando
 Agus: Che, ahora suben un par más de bandas. Mientras se preparan podes quedarte con nosotras

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://djcxrp6o7fipo"
+path="res://.godot/imported/Doki Doki Literature Club! OST - Play With Me.mp3-644fd91cd6c4c70d852b41799d4408d2.mp3str"
+
+[deps]
+
+source_file="res://music/Doki Doki Literature Club! OST - Play With Me.mp3"
+dest_files=["res://.godot/imported/Doki Doki Literature Club! OST - Play With Me.mp3-644fd91cd6c4c70d852b41799d4408d2.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

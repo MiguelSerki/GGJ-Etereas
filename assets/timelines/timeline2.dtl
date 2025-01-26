@@ -1,5 +1,6 @@
 [style name="Visual Novel Style"]
 [background arg="res://assets/sprites/Casa de la Cultura.jpeg" fade="0.0"]
+[music path="res://music/Doki Doki Literature Club! OST - Okay, Everyone!.mp3" fade="1.0" volume="0.0"]
 Llega el día en cuestión. La casa de la Cultura está llena de gente queer.
 Una chica sube al escenario y acapara la atención...
 join Agus (Agus Escenario) center [animation="Slide In Left" length="3.0" wait="true"]

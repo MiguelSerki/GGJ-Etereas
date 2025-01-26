@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://by6mn1qekxjaq"
+path="res://.godot/imported/Doki Doki Literature Club! OST - My Confession.mp3-d87ed04e2b9a80d59578827669851088.mp3str"
+
+[deps]
+
+source_file="res://music/Doki Doki Literature Club! OST - My Confession.mp3"
+dest_files=["res://.godot/imported/Doki Doki Literature Club! OST - My Confession.mp3-d87ed04e2b9a80d59578827669851088.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -4,6 +4,7 @@ set {Titulo_Chat} = "ETEREA BANDA"
 [sound path="res://music/Instagram notification sound insta sms tone  sms ringtone instrumental.mp3" volume="0.0"]
 ...
 ?
+[music path="res://music/Doki Doki Literature Club! OST - Okay, Everyone!.mp3" fade="1.0" volume="0.0"]
 [style name="SmartPhone_New"]
 etereabanda: Hola, vimos que tu historia sobre el acoso callejero que sufriste se volvió un poco viral
 etereabanda: Desde Etérea lamentamos lo que te hicieron vivir y queríamos invitarte a nuestra próxima fecha hoy a las 21hs en La Ratonera

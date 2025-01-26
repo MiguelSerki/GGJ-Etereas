@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://6e3juhpri4hj"
+path="res://.godot/imported/Doki Doki Literature Club! OST - Daijoubu!.mp3-b3d7fd6eb2640c65002c0325520a359a.mp3str"
+
+[deps]
+
+source_file="res://music/Doki Doki Literature Club! OST - Daijoubu!.mp3"
+dest_files=["res://.godot/imported/Doki Doki Literature Club! OST - Daijoubu!.mp3-b3d7fd6eb2640c65002c0325520a359a.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

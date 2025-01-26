@@ -1,5 +1,6 @@
 [style name="SmartPhone_New"]
 set {Titulo_Chat} = "AMIGX"
+[music path="res://music/Doki Doki Literature Club! OST - Dreams Of Love and Literature.mp3" fade="1.0" volume="0.0"]
 label Title (Amigx)
 Player: Che...
 Player: ¿viste la profe de sujeto 1?

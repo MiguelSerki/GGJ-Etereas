@@ -1,6 +1,7 @@
 Decides buscar a Mei en los camerinos
 [background arg="res://assets/fondos/5555-300x300.png" fade="0.0"]
 join Mei center
+[music path="res://music/Doki Doki Literature Club! OST - My Feelings.mp3" fade="1.0" volume="0.0"]
 Mei: ¿Te digo algo?
 Mei: A veces siento que el mundo es como un montón de burbujas que no paran de explotar
 Mei: Pero no de esas burbujas lindas que flotan en el aire...

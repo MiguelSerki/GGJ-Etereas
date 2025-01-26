@@ -1,5 +1,6 @@
 [style name="Visual Novel Style"]
 [background arg="res://assets/fondos/escena colectivo asi nomas.png" fade="0.0"]
+[music path="res://music/Doki Doki Literature Club! OST - Just Monika..mp3" fade="1.0" volume="0.0"]
 Por alguna razón te sentís incómodo...
 Como que todos te miran...
 Y dicen cosas a tu espalda.
