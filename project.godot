@@ -82,6 +82,13 @@ choices/reveal_by_input=false
 save/autosave_delay=60.0
 save/encryption_on_exports_only=true
 text/autopauses={}
+translation/enabled=false
+translation/original_locale="es_AR"
+translation/file_mode=1
+translation/translation_folder=""
+translation/save_mode=0
+translation/add_separator=false
+layout/end_behaviour=0
 
 [editor_plugins]
 

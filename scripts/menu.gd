@@ -1,7 +1,6 @@
 extends Control
 
-func _ready():
-	$MarginContainer/VBoxContainer/Play.grab_focus()
+
 
 
 func _on_play_pressed():

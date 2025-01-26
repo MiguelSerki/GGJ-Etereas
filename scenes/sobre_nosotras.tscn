@@ -1,55 +1,80 @@
 [gd_scene load_steps=5 format=3 uid="uid://b2dko1vhueq31"]
 
-[ext_resource type="Script" path="res://scripts/sobre_nosotras.gd" id="1_loi8s"]
-[ext_resource type="Texture2D" uid="uid://81awkbbdrbg7" path="res://Menu/277_Regirock.png" id="1_n5n34"]
+[ext_resource type="Script" path="res://scripts/sobre_nosotras_2.gd" id="1_xfxv4"]
 
 [sub_resource type="SystemFont" id="SystemFont_pm3f0"]
 font_names = PackedStringArray("Impact")
 
-[sub_resource type="SystemFont" id="SystemFont_7qc4x"]
+[sub_resource type="SystemFont" id="SystemFont_g1ltb"]
 font_names = PackedStringArray("Cute_Font")
 
-[node name="sobre_nosotras" type="Node2D"]
-script = ExtResource("1_loi8s")
+[sub_resource type="GDScript" id="GDScript_xlbgr"]
+script/source = "extends Button
 
-[node name="MarginContainer" type="MarginContainer" parent="."]
+
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready() -> void:
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta: float) -> void:
+	pass
+"
+
+[node name="Menu" type="Control"]
+layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = -3.0
-offset_top = 1.0
-offset_right = 1178.0
-offset_bottom = 646.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_xfxv4")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 
-[node name="TextureRect" type="TextureRect" parent="MarginContainer"]
+[node name="VBoxContainer2" type="VBoxContainer" parent="MarginContainer"]
 layout_mode = 2
-size_flags_horizontal = 3
-size_flags_vertical = 3
-texture = ExtResource("1_n5n34")
+size_flags_horizontal = 4
+size_flags_vertical = 4
 
-[node name="texto_ununun" type="Label" parent="MarginContainer"]
+[node name="texto" type="Label" parent="MarginContainer/VBoxContainer2"]
 layout_mode = 2
-theme_override_colors/font_color = Color(0, 0, 0.929412, 1)
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = SubResource("SystemFont_pm3f0")
-theme_override_font_sizes/font_size = 150
-text = "ÜN Ün ÜN"
+theme_override_font_sizes/font_size = 30
+text = "Esta narrativa interactiva está basada en una historia real ocurrida a finales del año 2024
+ en la ciudad de Río Grande.
+Cuenta un suceso que al ocurrir deja cicatrices en las personas muy profundas
+ pero que por su cotidianeidad no llega a ser noticia en los medios de comunicación. 
+La banda transfeminista Eterea existe debido a todo ésto.
+
+"
 horizontal_alignment = 1
-vertical_alignment = 1
 
 [node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
 layout_mode = 2
+size_flags_horizontal = 4
 size_flags_vertical = 8
 
-[node name="boton_volver" type="Button" parent="MarginContainer/VBoxContainer"]
+[node name="Button" type="Button" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2
-size_flags_vertical = 10
-theme_override_fonts/font = SubResource("SystemFont_7qc4x")
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_fonts/font = SubResource("SystemFont_g1ltb")
 theme_override_font_sizes/font_size = 25
 text = "Volver"
-icon_alignment = 1
+script = SubResource("GDScript_xlbgr")
 
-[connection signal="pressed" from="MarginContainer/VBoxContainer/boton_volver" to="." method="_on_boton_volver_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/Button" to="." method="_on_button_pressed"]

@@ -1,26 +1,19 @@
-[gd_scene load_steps=10 format=3 uid="uid://di8a6jy7vev63"]
+[gd_scene load_steps=8 format=3 uid="uid://di8a6jy7vev63"]
 
 [ext_resource type="Script" path="res://scripts/menu.gd" id="1_u6xju"]
-[ext_resource type="Texture2D" uid="uid://bh08fxpo6xobs" path="res://Menu/fondo_michis.png" id="2_wqdi3"]
-
-[sub_resource type="SystemFont" id="SystemFont_y457q"]
-font_names = PackedStringArray("Cute_Font")
-
-[sub_resource type="Theme" id="Theme_a1khx"]
+[ext_resource type="Texture2D" uid="uid://b3gahchkgvw4n" path="res://Menu/burbujas eteras.png" id="2_dfeqj"]
+[ext_resource type="Theme" uid="uid://by1tlmuekmn50" path="res://Menu/buttons.tres" id="3_j31ct"]
 
 [sub_resource type="SystemFont" id="SystemFont_5etgy"]
-font_names = PackedStringArray("Covered By Your Grace")
+font_names = PackedStringArray("Cute_Font")
 
 [sub_resource type="ViewportTexture" id="ViewportTexture_soj6u"]
 
-[sub_resource type="SystemFont" id="SystemFont_0i7em"]
-font_names = PackedStringArray("Covered By Your Grace")
-
 [sub_resource type="SystemFont" id="SystemFont_uf38x"]
-font_names = PackedStringArray("Covered By Your Grace")
+font_names = PackedStringArray("Cute_Font")
 
 [sub_resource type="SystemFont" id="SystemFont_4r5t6"]
-font_names = PackedStringArray("Covered By Your Grace")
+font_names = PackedStringArray("Cute_Font")
 
 [node name="Menu" type="Control"]
 layout_mode = 3
@@ -39,7 +32,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("2_wqdi3")
+texture = ExtResource("2_dfeqj")
 
 [node name="MarginContainer" type="MarginContainer" parent="."]
 layout_mode = 1
@@ -55,19 +48,10 @@ layout_mode = 2
 [node name="Separador" type="Control" parent="MarginContainer/VBoxContainer2"]
 layout_mode = 2
 
-[node name="Label" type="Label" parent="MarginContainer/VBoxContainer2"]
-layout_mode = 2
-theme_override_colors/font_color = Color(1, 1, 1, 1)
-theme_override_constants/outline_size = 12
-theme_override_fonts/font = SubResource("SystemFont_y457q")
-theme_override_font_sizes/font_size = 80
-text = "Burbujas Etereas
-"
-horizontal_alignment = 1
-vertical_alignment = 1
-
 [node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
 layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
 theme_override_constants/separation = 15
 alignment = 1
 
@@ -76,37 +60,33 @@ layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 focus_neighbor_top = NodePath("../Exit")
-theme = SubResource("Theme_a1khx")
+theme = ExtResource("3_j31ct")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = SubResource("SystemFont_5etgy")
-theme_override_font_sizes/font_size = 25
-text = "Jugar"
+theme_override_font_sizes/font_size = 30
+text = " jugar "
 icon = SubResource("ViewportTexture_soj6u")
-
-[node name="Options" type="Button" parent="MarginContainer/VBoxContainer"]
-layout_mode = 2
-size_flags_horizontal = 4
-size_flags_vertical = 4
-theme_override_fonts/font = SubResource("SystemFont_0i7em")
-theme_override_font_sizes/font_size = 25
-text = "Opciones"
 
 [node name="About" type="Button" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2
 size_flags_horizontal = 4
+theme = ExtResource("3_j31ct")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = SubResource("SystemFont_uf38x")
-theme_override_font_sizes/font_size = 25
-text = "Sobre nosotras"
+theme_override_font_sizes/font_size = 30
+text = " nosotras "
 
 [node name="Exit" type="Button" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 focus_neighbor_bottom = NodePath("../Play")
+theme = ExtResource("3_j31ct")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = SubResource("SystemFont_4r5t6")
-theme_override_font_sizes/font_size = 25
-text = "Salir"
+theme_override_font_sizes/font_size = 30
+text = " Salir "
 
 [connection signal="pressed" from="MarginContainer/VBoxContainer/Play" to="." method="_on_play_pressed"]
-[connection signal="pressed" from="MarginContainer/VBoxContainer/Options" to="." method="_on_options_pressed"]
 [connection signal="pressed" from="MarginContainer/VBoxContainer/About" to="." method="_on_about_pressed"]
 [connection signal="pressed" from="MarginContainer/VBoxContainer/Exit" to="." method="_on_exit_pressed"]
