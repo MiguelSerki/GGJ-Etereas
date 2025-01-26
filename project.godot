@@ -48,7 +48,11 @@ directories/dtl_directory={
 "timeline6": "res://assets/timelines/timeline6.dtl",
 "timeline7": "res://assets/timelines/timeline7.dtl",
 "timeline8": "res://assets/timelines/timeline8.dtl",
-"timeline9": "res://assets/timelines/timeline9.dtl"
+"timeline9": "res://assets/timelines/timeline9.dtl",
+"timeline_final_agus": "res://assets/timelines/timeline_final_agus.dtl",
+"timeline_final_anna": "res://assets/timelines/timeline_final_anna.dtl",
+"timeline_final_erin": "res://assets/timelines/timeline_final_erin.dtl",
+"timeline_final_mei": "res://assets/timelines/timeline_final_mei.dtl"
 }
 glossary/default_case_sensitive=true
 layout/style_list=["res://Visual Novel Style.tres", "res://Smartphone/SmartPhone_New.tres"]
