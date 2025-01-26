@@ -94,7 +94,7 @@ func add_message(text:String, size:Vector2, speaker_name:String, time:String) ->
 	else:
 		message.size_flags_horizontal = Control.SIZE_SHRINK_BEGIN
 
-<<<<<<< Updated upstream
+
 	if is_inside_tree():
 		await get_tree().process_frame
 	else:
