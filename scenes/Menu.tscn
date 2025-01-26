@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=3 uid="uid://di8a6jy7vev63"]
+[gd_scene load_steps=10 format=3 uid="uid://di8a6jy7vev63"]
 
 [ext_resource type="Script" path="res://scripts/menu.gd" id="1_u6xju"]
 [ext_resource type="Texture2D" uid="uid://bh08fxpo6xobs" path="res://Menu/fondo_michis.png" id="2_wqdi3"]
@@ -10,6 +10,8 @@ font_names = PackedStringArray("Cute_Font")
 
 [sub_resource type="SystemFont" id="SystemFont_5etgy"]
 font_names = PackedStringArray("Covered By Your Grace")
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_soj6u"]
 
 [sub_resource type="SystemFont" id="SystemFont_0i7em"]
 font_names = PackedStringArray("Covered By Your Grace")
@@ -25,23 +27,27 @@ layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+offset_right = 13.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_u6xju")
 
 [node name="TextureRect" type="TextureRect" parent="."]
-layout_mode = 0
-offset_left = -804.0
-offset_top = -225.0
-offset_right = 1966.0
-offset_bottom = 1192.0
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
 texture = ExtResource("2_wqdi3")
 
 [node name="MarginContainer" type="MarginContainer" parent="."]
-layout_mode = 0
-offset_top = 164.0
-offset_right = 1145.0
-offset_bottom = 560.0
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
 
 [node name="VBoxContainer2" type="VBoxContainer" parent="MarginContainer"]
 layout_mode = 2
@@ -67,26 +73,34 @@ alignment = 1
 
 [node name="Play" type="Button" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
 focus_neighbor_top = NodePath("../Exit")
 theme = SubResource("Theme_a1khx")
 theme_override_fonts/font = SubResource("SystemFont_5etgy")
 theme_override_font_sizes/font_size = 25
 text = "Jugar"
+icon = SubResource("ViewportTexture_soj6u")
 
 [node name="Options" type="Button" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
 theme_override_fonts/font = SubResource("SystemFont_0i7em")
 theme_override_font_sizes/font_size = 25
 text = "Opciones"
 
 [node name="About" type="Button" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2
+size_flags_horizontal = 4
 theme_override_fonts/font = SubResource("SystemFont_uf38x")
 theme_override_font_sizes/font_size = 25
 text = "Sobre nosotras"
 
 [node name="Exit" type="Button" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
 focus_neighbor_bottom = NodePath("../Play")
 theme_override_fonts/font = SubResource("SystemFont_4r5t6")
 theme_override_font_sizes/font_size = 25
