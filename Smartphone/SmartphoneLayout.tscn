@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://addons/dialogic/Modules/Text/node_dialog_text.gd" id="1_lblyi"]
 [ext_resource type="Script" path="res://Smartphone/SmartphoneLayout.gd" id="1_qguno"]
-[ext_resource type="Texture2D" uid="uid://byaate5oq35el" path="res://Smartphone/Assets/GalaxyNote3.png" id="2_nhqfc"]
+[ext_resource type="Texture2D" uid="uid://cstwdu0aydq6c" path="res://Smartphone/Assets/GalaxyNote3.png" id="2_nhqfc"]
 [ext_resource type="Script" path="res://addons/dialogic/Modules/Choice/node_choice_button.gd" id="4_jhrew"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_v3p03"]
@@ -98,18 +98,17 @@ Button/styles/pressed = SubResource("StyleBoxFlat_gnh08")
 script = ExtResource("1_qguno")
 
 [node name="PhoneTexture" type="TextureRect" parent="."]
-anchors_preset = 6
-anchor_left = 1.0
+anchors_preset = 8
+anchor_left = 0.5
 anchor_top = 0.5
-anchor_right = 1.0
+anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -508.0
-offset_top = -282.0
-offset_right = -53.0
-offset_bottom = 269.0
-grow_horizontal = 0
+offset_left = -235.5
+offset_top = -271.0
+offset_right = 235.5
+offset_bottom = 271.0
+grow_horizontal = 2
 grow_vertical = 2
-rotation = 0.0322615
 texture = ExtResource("2_nhqfc")
 expand_mode = 1
 stretch_mode = 5
