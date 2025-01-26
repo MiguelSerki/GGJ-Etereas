@@ -30,7 +30,8 @@ directories/dch_directory={
 "Laurey": "res://Smartphone/Characters/Laurey.dch",
 "Mei": "res://assets/characters/Mei.dch",
 "Otto": "res://Smartphone/Characters/Otto.dch",
-"Player": "res://assets/characters/Player.dch"
+"Player": "res://assets/characters/Player.dch",
+"etereabanda": "res://assets/characters/etereabanda.dch"
 }
 directories/dtl_directory={
 "Claire": "res://Smartphone/Timelines/Claire.dtl",
@@ -43,7 +44,8 @@ directories/dtl_directory={
 "timeline3": "res://assets/timelines/timeline3.dtl",
 "timeline4": "res://assets/timelines/timeline4.dtl",
 "timeline5": "res://assets/timelines/secuenciaAcoso.dtl",
-"timeline6": "res://assets/timelines/timeline6.dtl"
+"timeline6": "res://assets/timelines/timeline6.dtl",
+"timeline7": "res://assets/timelines/timeline7.dtl"
 }
 glossary/default_case_sensitive=true
 layout/style_list=["res://Visual Novel Style.tres", "res://Smartphone/SmartPhone_New.tres"]
