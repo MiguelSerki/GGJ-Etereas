@@ -1,0 +1,6 @@
+[style name="Visual Novel Style"]
+[background fade="0.0"]
+- Decides ir sin compañía
+	jump timeline5/
+- Decides quedarte en casa
+	jump Virgo Ending/

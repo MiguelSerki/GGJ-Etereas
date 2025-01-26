@@ -12,7 +12,5 @@ Player: ¿Pero entonces no vamos a volver a ir a ninguna tocada así?
 Amigx: Eso te llama la atención a vos, a mi no.
 Amigx: Si te gustó andá solo.
 Amigx: Sino te invito una ranked =P
-- Decides ir sin compañía
-	jump timeline5/
-- Decides quedarte en casa
-	jump Virgo Ending/
+[wait_input]
+jump DesiciónIrSolo/
