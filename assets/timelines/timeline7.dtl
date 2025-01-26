@@ -1,6 +1,21 @@
 # Ringtone notificación de instagram
+[style name="SmartPhone_New"]
 etereabanda: Hola, vimos que tu historia sobre el acoso callejero que sufriste se volvió un poco viral
 etereabanda: Desde Etérea lamentamos lo que te hicieron vivir y queríamos invitarte a nuestra próxima fecha hoy a las 21hs en La Ratonera
-etereabanda:  Va a ser en un lugar cerrado, chiquito y sólo van a ir unas pocas personas que ya son conocidas de la banda
-etereabanda: e gustaría ir? como es tan límitado el espacio estamos vendiendo las entradas pero a vos te ponemos en lista para que pases nomás
+etereabanda: Va a ser en un lugar cerrado, chiquito y sólo van a ir unas pocas personas que ya son conocidas de la banda
+etereabanda: Te gustaría ir? como es tan límitado el espacio estamos vendiendo las entradas pero a vos te ponemos en lista para que pases nomás
 etereabanda: Confirmanos si venís <3
+[style]
+Player: ...
+- Confirmar al instante
+	jump timeline8/
+- Preguntarle a tu amix si quiere acompañarte
+	[style name="SmartPhone_New"]
+	Player: Eu, Eterea me mandó un mensaje desde el instagram de la banda
+	Amigx: Y qué onda?
+	Player: parece que la historia está haciendo bastante revuelo. Me invitaron a su próxima fecha \:D
+	Player: Querés venir?
+	Amigx:  No, ahora tengo muchas menos ganas de ir a lugares así
+	Amigx:  Pero andá solo, si va a estar la profe se ve como un lugar más seguro
+	Player: Me da como nervios. Pero no puedo permitir que ésto me encierre en mi casa
+	jump timeline8/
