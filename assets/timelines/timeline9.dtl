@@ -9,12 +9,12 @@ Agus: Che, ahora suben un par más de bandas. Mientras se preparan podes quedart
 Agus: Vos fumás? yo me voy a fumar afuera un rato que hace muchísimo calor acá arriba
 Agus: Mei seguramente se quede en el camerino retocándose el maquillaje.
 Agus: Erin es la más social, seguro está sentada esperando a que alguien le hable
-Agus: Y Ana suele estar cerca de la barra comprando birra o algo así
+Agus: Y Ana debe estar en el escenario desconectando sus pedales
 - Acompañar a Agus a fumar afuera
 	jump timeline_final_agus/
 - Buscar a Mei en el camerín
 	jump timeline_final_mei/
 - Sentarse junto a Erin
 	jump timeline_final_erin/
-- Buscar a Ana en la barra de bebidas
+- Buscar a Ana en el escenario
 	jump timeline_final_anna/

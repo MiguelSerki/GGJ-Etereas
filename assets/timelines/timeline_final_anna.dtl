@@ -1,4 +1,5 @@
-Decides buscar a Ana en la barra de bebidas
+Decides buscar a Ana en el escenario
+[background arg="res://assets/fondos/La ratonera Interior Escenario.jpg" fade="0.0"]
 join Anna center
 Anna: Me alegra verte por acá
 Player: No estaba seguro de si venir

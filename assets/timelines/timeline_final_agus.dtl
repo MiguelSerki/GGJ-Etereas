@@ -1,4 +1,5 @@
 Decides ir afuera a hablar con Agus
+[background arg="res://assets/fondos/ratonera exterior.jpg" fade="0.0"]
 join Agus center
 Agus: ¿Sabés? A veces creo que cada paso que damos afuera es un acto de resistencia
 Agus: Y eso, para muchos, es insoportable
