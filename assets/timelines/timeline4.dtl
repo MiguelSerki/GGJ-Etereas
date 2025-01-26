@@ -1,4 +1,4 @@
-AL DIA SIGUIENTE
+[style name="SmartPhone_New"]
 Player: Eu, ¡la pasé re bien ayer!
 Player: ¿Te gustó la banda?...
 Amigx: No voy a mentirte...
@@ -13,6 +13,6 @@ Amigx: Eso te llama la atención a vos, a mi no.
 Amigx: Si te gustó andá solo.
 Amigx: Sino te invito una ranked =P
 - Decides ir sin compañía
-	jump 
+	jump timeline5/
 - Decides quedarte en casa
 	jump Virgo Ending/

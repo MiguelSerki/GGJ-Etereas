@@ -3,7 +3,7 @@ extends Node2D
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	start_example_scene()
+	start_scene()
 	Dialogic.Styles.load_style('Smartphone_Style')
 	Dialogic.start("timeline1")
 	pass
@@ -13,7 +13,7 @@ func _ready():
 func _process(delta: float) -> void:
 	pass
 
-func start_example_scene() -> void:
+func start_scene() -> void:
 	fade(true)
 
 ## A fade in animation for this example
