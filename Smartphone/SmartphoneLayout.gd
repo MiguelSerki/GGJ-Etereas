@@ -94,7 +94,10 @@ func add_message(text:String, size:Vector2, speaker_name:String, time:String) ->
 	else:
 		message.size_flags_horizontal = Control.SIZE_SHRINK_BEGIN
 
-	await get_tree().process_frame
+	if is_inside_tree():
+		await get_tree().process_frame
+	else:
+		pass
 
 	# scroll down to the %DialogText node
 	%MessageList.get_parent().ensure_control_visible(%DialogText)
@@ -172,7 +175,10 @@ func add_image_message(image:Texture2D, size:Vector2, speaker:String, time:Strin
 	else:
 		message.size_flags_horizontal = Control.SIZE_SHRINK_BEGIN
 
-	await get_tree().process_frame
+	if is_inside_tree():
+		await get_tree().process_frame
+	else:
+		pass
 
 	%MessageList.get_parent().ensure_control_visible(message)
 
